@@ -94,41 +94,62 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(420,410)" to="(420,470)"/>
     <wire from="(260,200)" to="(330,200)"/>
     <wire from="(200,410)" to="(200,470)"/>
+    <comp lib="4" loc="(790,460)" name="J-K Flip-Flop"/>
     <comp lib="0" loc="(80,410)" name="Pin">
       <a name="tristate" val="false"/>
     </comp>
-    <comp lib="4" loc="(550,470)" name="J-K Flip-Flop"/>
-    <comp lib="4" loc="(300,470)" name="J-K Flip-Flop"/>
+    <comp lib="6" loc="(234,108)" name="Text">
+      <a name="text" val="2-Bit (MOD 4) Ripple Counter "/>
+      <a name="font" val="SansSerif bold 22"/>
+    </comp>
+    <comp lib="6" loc="(341,237)" name="Text">
+      <a name="text" val="FF0"/>
+    </comp>
+    <comp lib="6" loc="(198,365)" name="Text">
+      <a name="text" val="3-Bit Async Ripple Counter "/>
+      <a name="font" val="SansSerif bold 22"/>
+    </comp>
     <comp lib="0" loc="(250,250)" name="Clock"/>
+    <comp lib="0" loc="(630,470)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="6" loc="(209,165)" name="Text">
+      <a name="text" val="HIGH"/>
+    </comp>
+    <comp lib="4" loc="(300,470)" name="J-K Flip-Flop"/>
+    <comp lib="6" loc="(767,509)" name="Text">
+      <a name="text" val="FF2"/>
+    </comp>
+    <comp lib="4" loc="(370,190)" name="J-K Flip-Flop"/>
+    <comp lib="4" loc="(550,470)" name="J-K Flip-Flop"/>
+    <comp lib="6" loc="(275,520)" name="Text">
+      <a name="text" val="FF0"/>
+    </comp>
     <comp lib="0" loc="(640,190)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
       <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="4" loc="(610,190)" name="J-K Flip-Flop"/>
+    <comp lib="0" loc="(80,480)" name="Clock"/>
+    <comp lib="6" loc="(208,255)" name="Text">
+      <a name="text" val="CLK"/>
+    </comp>
+    <comp lib="6" loc="(527,520)" name="Text">
+      <a name="text" val="FF1"/>
+    </comp>
+    <comp lib="6" loc="(577,231)" name="Text">
+      <a name="text" val="FF1"/>
+    </comp>
+    <comp lib="0" loc="(250,160)" name="Pin">
+      <a name="tristate" val="false"/>
     </comp>
     <comp lib="0" loc="(360,470)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="0" loc="(250,160)" name="Pin">
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="0" loc="(80,480)" name="Clock"/>
-    <comp lib="6" loc="(220,341)" name="Text">
-      <a name="text" val="3-Bit (MOD 4) Ripple Counter "/>
-      <a name="font" val="SansSerif bold 22"/>
-    </comp>
-    <comp lib="4" loc="(370,190)" name="J-K Flip-Flop"/>
-    <comp lib="6" loc="(234,108)" name="Text">
-      <a name="text" val="2-Bit (MOD 4) Ripple Counter "/>
-      <a name="font" val="SansSerif bold 22"/>
-    </comp>
-    <comp lib="0" loc="(630,470)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="4" loc="(610,190)" name="J-K Flip-Flop"/>
-    <comp lib="4" loc="(790,460)" name="J-K Flip-Flop"/>
   </circuit>
 </project>
